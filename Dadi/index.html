@@ -4,9 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <!-- titolo -->
+  <title>Roll The Dice</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- collegamento css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- cdn font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!-- collegamento google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
 </head>
+<h1>Roll the Dice</h1>
 <body>
-  
+  <main>
+    <button id="gioca">Play</button>
+    <div class="dice-container">
+      <div>
+        <h3>Your Dice</h3>
+        <div id="dado-user"></div>
+      </div>
+      <div>
+        <h3>Leo's Dice</h3>
+        <div id="dado-ia"></div>
+      </div>
+    </div>
+    <h2 id="output" class=""></h2>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
